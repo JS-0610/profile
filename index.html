@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Julio Sabillon</title>
+    <meta name="description" content="Fotografía profesional." />
+
+    <style type="text/css">
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+      body {
+        font-family: "Poppins", sans-serif !important;
+      }
+      .font-weight-bold {
+        font-weight: 700;
+      }
+      .active1 {
+        background-color: black !important;
+      }
+      hr {
+        color: #a1a1a8;
+      }
+      a {
+        text-decoration: none;
+      }
+      .navbar {
+        padding-top: 0.7rem !important;
+        padding-bottom: 0.7rem !important;
+        transition: top 0.3s;
+      }
+      .bg-gris {
+        background-color: var(--bs-gray-200);
+      }
+      .toast {
+        width: 340px !important;
+      }
+      .toast-body {
+        background-image: url(img/fondo-predeterminado-whatsapp.jpg);
+        background-size: cover;
+        overflow: hidden;
+        height: 100px;
+      }
+      .a1 {
+        height: 300px;
+        width: 49%;
+        overflow: hidden;
+        position: relative;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .b1 {
+        height: 300px;
+        width: 49%;
+        overflow: hidden;
+        position: relative;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .c1 {
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .d1 {
+        height: 57%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .e1 {
+        height: 39%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .f1 {
+        height: 39%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .g1 {
+        height: 57%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .h1 {
+        height: 300px;
+        width: 32%;
+        overflow: hidden;
+        position: relative;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .i1 {
+        height: 300px;
+        width: 32%;
+        overflow: hidden;
+        position: relative;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .j1 {
+        height: 300px;
+        width: 32%;
+        overflow: hidden;
+        position: relative;
+        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .columna1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 49%;
+        height: 700px;
+      }
+      .columna2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 49%;
+        height: 700px;
+      }
+      .contenedor2 {
+        padding-right: 3rem;
+        padding-left: 3rem;
+      }
+      .a::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        transition: inherit;
+      }
+      .a:hover::before {
+        transform: scale(1.1);
+      }
+      .a:hover {
+        opacity: 0.4;
+        -webkit-transform: scale(1.12);
+      }
+      .at {
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      .at::before,
+      .at::after {
+        pointer-events: none;
+      }
+      .a1::before,
+      .at {
+        opacity: 0;
+        -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .a1:hover .at {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      .b::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        transition: inherit;
+      }
+      .b:hover::before {
+        transform: scale(1.1);
+      }
+      .b:hover {
+        opacity: 0.4;
+        -webkit-transform: scale(1.12);
+      }
+      .bt {
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      .bt::before,
+      .bt::after {
+        pointer-events: none;
+      }
+      .b1::before,
+      .bt {
+        opacity: 0;
+        -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .b1:hover .bt {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      .c::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        transition: inherit;
+      }
+      .c:hover::before {
+        transform: scale(1.1);
+      }
+      .c:hover {
+        opacity: 0.4;
+        -webkit-transform: scale(1.12);
+      }
+      .ct {
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      .ct::before,
+      .ct::after {
+        pointer-events: none;
+      }
+      .c1::before,
+      .ct {
+        opacity: 0;
+        -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .c1:hover .ct {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      .d::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        transition: inherit;
+      }
+      .d:hover::before {
+        transform: scale(1.1);
+      }
+      .d:hover {
+        opacity: 0.4;
+        -webkit-transform: scale(1.12);
+      }
+      .dt {
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      .dt::before,
+      .dt::after {
+        pointer-events: none;
+      }
+      .d1::before,
+      .dt {
+        opacity: 0;
+        -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .d1:hover .dt {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      .e::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        transition: inherit;
+      }
+      .e:hover::before {
+        transform: scale(1.1);
+      }
+      .e:hover {
+        opacity: 0.4;
+        -webkit-transform: scale(1.12);
+      }
+      .et {
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      .et::before,
+      .et::after {
+        pointer-events: none;
+      }
+      .e1::before,
+      .et {
+        opacity: 0;
+        -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .e1:hover .et {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      .f::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        transition: inherit;
+      }
+      .f:hover::before {
+        transform: scale(1.1);
+      }
+      .f:hover {
+        opacity: 0.4;
+        -webkit-transform: scale(1.12);
+      }
+      .ft {
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      .ft::before,
+      .ft::after {
+        pointer-events: none;
+      }
+      .f1::before,
+      .ft {
+        opacity: 0;
+        -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .f1:hover .ft {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      .g::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        transition: inherit;
+      }
+      .g:hover::before {
+        transform: scale(1.1);
+      }
+      .g:hover {
+        opacity: 0.4;
+        -webkit-transform: scale(1.12);
+      }
+      .gt {
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      .gt::before,
+      .gt::after {
+        pointer-events: none;
+      }
+      .g1::before,
+      .gt {
+        opacity: 0;
+        -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .g1:hover .gt {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      .h::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        transition: inherit;
+      }
+      .h:hover::before {
+        transform: scale(1.1);
+      }
+      .h:hover {
+        opacity: 0.4;
+        -webkit-transform: scale(1.12);
+      }
+      .ht {
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      .ht::before,
+      .ht::after {
+        pointer-events: none;
+      }
+      .h1::before,
+      .ht {
+        opacity: 0;
+        -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .h1:hover .ht {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      .i::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        transition: inherit;
+      }
+      .i:hover::before {
+        transform: scale(1.1);
+      }
+      .i:hover {
+        opacity: 0.4;
+        -webkit-transform: scale(1.12);
+      }
+      .it {
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      .it::before,
+      .it::after {
+        pointer-events: none;
+      }
+      .i1::before,
+      .it {
+        opacity: 0;
+        -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .i1:hover .it {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      .j::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        transition: inherit;
+      }
+      .j:hover::before {
+        transform: scale(1.1);
+      }
+      .j:hover {
+        opacity: 0.4;
+        -webkit-transform: scale(1.12);
+      }
+      .jt {
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      .jt::before,
+      .jt::after {
+        pointer-events: none;
+      }
+      .j1::before,
+      .jt {
+        opacity: 0;
+        -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+        transition: opacity 0.2s, transform 0.2s;
+      }
+      .j1:hover .jt {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+      #redes svg {
+        color: white;
+      }
+      .wapp {
+        height: 460px;
+        background-image: url(img/whats.jpg);
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+      }
+      .num1 {
+        margin-left: 2rem;
+      }
+      .whatsapp {
+        width: 80%;
+      }
+      .chat1 {
+        width: 100%;
+        padding: 2rem 2rem 0 0;
+        text-align: right;
+      }
+      .chat2 {
+        width: 100%;
+        padding: 2rem 0 0 1.5rem;
+      }
+
+      .circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%; /* Hace que el div sea circular */
+        overflow: hidden; /* Oculta las partes de la imagen que están fuera del círculo */
+        margin: 0 auto; /* Centra el div horizontalmente */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para resaltar el círculo */
+      }
+
+      .circle img {
+        display: block;
+        width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+      }
+      @media (max-width: 1400px) {
+      }
+      @media (max-width: 1200px) {
+        .whatsapp {
+          width: 85%;
+        }
+      }
+      @media (min-width: 1200px) {
+        .contenedor2 {
+          width: 84%;
+        }
+      }
+      @media (max-width: 992px) {
+        .navbar-collapse {
+          text-align: center;
+          background-color: black;
+        }
+        .whatsapp {
+          width: 100%;
+        }
+      }
+      @media (max-width: 768px) {
+        .a {
+          width: 100% !important;
+        }
+        .a1 {
+          width: 100%;
+        }
+        .b {
+          width: 100% !important;
+        }
+        .b1 {
+          width: 100%;
+          margin-top: 1.8rem;
+        }
+        .c1 {
+          display: none;
+        }
+        .h {
+          width: 100%;
+        }
+        .i1,
+        .i {
+          margin-top: 1.6rem;
+          width: 100%;
+          display: none;
+        }
+        .j {
+          width: 100%;
+        }
+        .d {
+          height: 300px !important;
+        }
+        .d1 {
+          height: 300px !important;
+        }
+        .e1 {
+          display: none;
+        }
+        .f1 {
+          display: none;
+        }
+        .g1 {
+          height: 300px !important;
+        }
+        .columna1 {
+          width: 100%;
+          height: 300px;
+        }
+        .columna2 {
+          width: 100%;
+          height: 300px;
+          margin-top: 1.6rem;
+        }
+        .wapp {
+          margin-bottom: 1.5rem;
+        }
+        .h1 {
+          width: 100%;
+          margin-bottom: 1.5rem;
+        }
+        .j1 {
+          width: 100%;
+        }
+        .num1 {
+          text-align: center;
+          margin-left: 0rem;
+        }
+        .whatsapp {
+          width: 90%;
+        }
+      }
+      @media (max-width: 576px) {
+        .contenedor2 {
+          padding-right: 1rem;
+          padding-left: 1rem;
+        }
+        .wapp {
+          height: 280px;
+          width: 85%;
+        }
+        .sep1 {
+          display: none;
+        }
+        .whatsapp {
+          width: 100%;
+        }
+        .wapp2 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .chat1 {
+          padding: 2rem 0.5rem 0 0;
+        }
+        .chat2 {
+          padding: 2rem 0 0 0.5rem;
+        }
+      }
+      @media (max-width: 325px) {
+        .wapp {
+          width: 100%;
+        }
+        .chat1 {
+          padding: 2rem 0rem 0 2rem;
+          max-width: 95%;
+        }
+        .chat2 {
+          padding: 2rem 0.2rem 0 0.5rem;
+          max-width: 95%;
+        }
+        .num1 {
+          padding-top: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <span class="navbar-brand" href="#"><strong>Dev.js</strong></span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarText"
+            style="z-index: 10"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#tecnologias"
+                  >Tecnologías</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#precios">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              fill="#8c8c8c"
+              class="bi bi-intersect"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm5 10v2a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2v5a2 2 0 0 1-2 2H5zm6-8V2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2V6a2 2 0 0 1 2-2h5z"
+              />
+            </svg>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        style="
+          height: 100vh;
+          background-image: url(img/photo-1551434678-e076c223a692.jpg);
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+        "
+        class="position-relative w-100"
+      >
+        <div
+          class="position-absolute text-white d-flex flex-column align-items-start justify-content-between"
+          style="
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.4);
+            height: 100vh;
+          "
+        >
+          <div
+            class="container d-flex flex-row justify-content-between"
+            style="height: 100%"
+          >
+            <div
+              class="col-md-6 d-flex flex-column justify-content-center num1"
+            >
+              <div class="circle ms-md-4">
+                <img src="img/profile.jpg" alt="Imagen en círculo" />
+              </div>
+              <h1 class="mb-4 mt-2 display-4 font-weight-bold">
+                Julio <span style="color: #17a2b8">Sabillon</span>
+              </h1>
+              <p style="color: #bbb">
+                Gracias por venir hasta aquí y conocer más sobre mi trabajo
+              </p>
+              <p style="color: #bbb">
+                Soy desarrollador e Ingeniero en Sistemas con un enfoque
+                especializado en el desarrollo web, abarcando tanto el front-end
+                como el back-end. Mi pasión radica en proporcionar la mejor
+                experiencia de usuario posible, integrando soluciones de
+                vanguardia para optimizar cada proyecto.
+              </p>
+              <div class="mt-4">
+                <a
+                  href="https://api.whatsapp.com/send?phone=50496183355&text=Hola,%20%20vi%20tu%20sitio%20web%20y%20quiero%20más%20información."
+                  target="_blank"
+                  class="btn px-4 py-2 text-white mt-3 mt-sm-0 btn-info"
+                  ><strong style="font-size: 1.3rem">Cotiza Aquí</strong></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container-fluid bg-secondary" style="height: 50px"></div>
+      <div class="container my-5 pt-4">
+        <section id="tecnologias">
+          <div class="text-center mb-5 col-md-10 mx-auto">
+            <h2 class="font-weight-bold display-4">
+              Habilidades -<span style="color: #17a2b8"> Tecnologías</span>
+            </h2>
+            <p class="mx-5 text-secondary">
+              Estas son las tecnologías con las cuales trabajo.
+            </p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-2 my-4">
+              <div class="text-dark">
+                <div class="px-2 py-5 bg-gris" style="min-height: 210px">
+                  <div
+                    class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                    style="width: 60px; height: 60px"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 452 520"
+                    >
+                      <path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52" />
+                      <path fill="#ef652a" d="M226 472l149-41 35-394H226" />
+                      <path
+                        fill="#ecedee"
+                        d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z"
+                      />
+                      <path
+                        fill="#fff"
+                        d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="px-3 text-center">
+                    <h5 class="text-uppercase" style="font-weight: 600">
+                      HTML
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 my-4">
+              <div class="text-dark">
+                <div
+                  class="px-3 py-5 text-white"
+                  style="background-color: #17a2b8; min-height: 210px"
+                >
+                  <div
+                    class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                    style="width: 60px; height: 60px"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 452 520"
+                    >
+                      <path fill="#0c73b8" d="M41 460L0 0h451l-41 460-185 52" />
+                      <path fill="#30a9dc" d="M226 472l149-41 35-394H226" />
+                      <path
+                        fill="#ecedee"
+                        d="M226 208H94l5 57h127zm0-114H84l5 56h137zm0 261l-124-33 7 60 117 32z"
+                      />
+                      <path
+                        fill="#fff"
+                        d="M226 265h69l-7 73-62 17v59l115-32 26-288H226v56h80l-6 58h-74z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="px-3 text-center">
+                    <h5 class="text-uppercase" style="font-weight: 600">CSS</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 my-4">
+              <div class="text-dark">
+                <div class="px-2 py-5 bg-gris" style="min-height: 210px">
+                  <div
+                    class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                    style="width: 60px; height: 60px"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 630 630"
+                    >
+                      <rect width="630" height="630" fill="#f7df1e" />
+                      <path
+                        d="m423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.075z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="px-3 text-center">
+                    <h5 class="" style="font-weight: 600">JavaScript</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 my-4">
+              <div class="text-dark">
+                <div
+                  class="px-3 py-5 text-white"
+                  style="background-color: #17a2b8; min-height: 110px"
+                >
+                  <div
+                    class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                    style="width: 60px; height: 60px"
+                  >
+                    <img
+                      src="img/bootstrap-logo.png"
+                      style="width: 60px; height: 60px"
+                    />
+                  </div>
+                  <div class="px-3 text-center">
+                    <h5 class="text-uppercase" style="font-weight: 600">
+                      Bootstrap
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 my-4">
+              <div class="text-dark">
+                <div class="px-2 py-5 bg-gris" style="min-height: 210px">
+                  <div
+                    class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                    style="width: 60px; height: 60px"
+                  >
+                    <img
+                      src="img/mysql.png"
+                      style="width: 60px; height: 60px"
+                    />
+                  </div>
+                  <div class="px-3 text-center">
+                    <h5 class="" style="font-weight: 600">MySQL</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 my-4">
+              <div class="text-dark">
+                <div
+                  class="px-3 py-5 text-white"
+                  style="background-color: #17a2b8; min-height: 210px"
+                >
+                  <div
+                    class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                    style="width: 60px; height: 60px"
+                  >
+                    <img
+                      src="img/postgresql-logo.png"
+                      style="width: 60px; height: 60px"
+                    />
+                  </div>
+                  <div class="px-3 text-center">
+                    <h5 class="" style="font-weight: 600">PostgreSQL</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 my-4">
+              <div class="text-dark">
+                <div class="px-2 py-5 bg-gris" style="min-height: 210px">
+                  <div
+                    class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                    style="width: 60px; height: 60px"
+                  >
+                    <img
+                      src="img/csharp-logo.png"
+                      style="width: 60px; height: 60px"
+                    />
+                  </div>
+                  <div class="px-3 text-center">
+                    <h5 class="" style="font-weight: 600">C#</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 my-4">
+              <div class="text-dark">
+                <div
+                  class="px-3 py-5 text-white"
+                  style="background-color: #17a2b8; min-height: 210px"
+                >
+                  <div
+                    class="font-weight-bold circle rounded-circle d-flex align-items-center justify-content-center mx-auto my-3"
+                    style="width: 60px; height: 60px"
+                  >
+                    <img
+                      src="img/node-logo.png"
+                      style="width: 60px; height: 60px"
+                    />
+                  </div>
+                  <div class="px-3 text-center">
+                    <h5 class="" style="font-weight: 600">Node.js</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section id="precios" class="col-md-11" style="margin: auto">
+        <div class="container-fluid my-5">
+          <div class="text-center mb-5">
+            <h1 class="text-capitalize font-weight-bold mt-2">
+              Conoce <span style="color: #17a2b8">Mis Proyectos</span>
+            </h1>
+
+            Estos son los proyectos en los que he trabajado, si tienes una
+            necesidad diferente puedes contactarme y con gusto te ofrezco una
+            solución adecuada
+          </div>
+          <div class="row">
+            <div class="col-md-4 p-4">
+              <div class="border">
+                <div
+                  class="position-relative w-100"
+                  style="
+                    height: 250px;
+                    background-image: url(img/aa.png);
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <div
+                    class="position-absolute bg-dark"
+                    style="opacity: 0.3; top: 0; left: 0; right: 0; bottom: 0"
+                  ></div>
+                  >
+                </div>
+                <div class="px-3 pt-4 pb-3">
+                  <span href="#" class="d-inline-block"
+                    ><h4
+                      class="text-dark"
+                      style="font-weight: 600; font-size: 1.1rem"
+                    >
+                      American Academy
+                    </h4></span
+                  >
+                  <p class="tex-secondary">
+                    Este sistema web está diseñado para proporcionar una gestión
+                    integral para academias, permitiendo el registro y control
+                    de pagos de los alumnos, control de asistencias y envíos de
+                    recibos por WhatsApp.
+                  </p>
+                  <div class="d-flex mt-4">
+                    <div class="d-flex align-items-center mr-4">
+                      <small class="mt-1" style="color: #17a2b8"
+                        ><b>Vue 3 | C# | PostgreSQL</b></small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 p-4">
+              <div class="border">
+                <div
+                  class="position-relative w-100"
+                  style="
+                    height: 250px;
+                    background-image: url(img/ribatel.png);
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <div
+                    class="position-absolute bg-dark"
+                    style="opacity: 0.3; top: 0; left: 0; right: 0; bottom: 0"
+                  ></div>
+                </div>
+                <div class="px-3 pt-4 pb-3">
+                  <span href="#" class="d-inline-block"
+                    ><h4
+                      class="text-dark"
+                      style="font-weight: 600; font-size: 1.1rem"
+                    >
+                      Ribatel
+                    </h4></span
+                  >
+                  <p class="tex-secondary">
+                    Este sistema web está diseñado para proporcionar un control
+                    eficiente y preciso del inventario, ideal para manejar
+                    ingresos, traslados y salidas de productos. Además, permite
+                    la gestión de series y lotes de productos, facilitando un
+                    seguimiento detallado y organizado de cada ítem en el
+                    inventario.
+                  </p>
+
+                  <div class="d-flex mt-4">
+                    <div class="d-flex align-items-center mr-4">
+                      <small class="mt-1" style="color: #17a2b8"
+                        ><b>Vue 3 | C# | MySQL</b></small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 p-4">
+              <div class="border">
+                <div
+                  class="position-relative w-100"
+                  style="
+                    height: 250px;
+                    background-image: url(img/projects-1.jpg);
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <div
+                    class="position-absolute bg-dark"
+                    style="opacity: 0.3; top: 0; left: 0; right: 0; bottom: 0"
+                  ></div>
+                </div>
+                <div class="px-3 pt-4 pb-3">
+                  <span href="#" class="d-inline-block"
+                    ><h4
+                      class="text-dark"
+                      style="font-weight: 600; font-size: 1.1rem"
+                    >
+                      CTRL
+                    </h4></span
+                  >
+                  <small class="mt-1" style="color: #17a2b8"
+                    ><b> (Colaboración)</b></small
+                  >
+                  <p class="tex-secondary">
+                    Sistema de Gestión Empresarial para pequeña y Mediana
+                    empresa de cualquier rubro, cuanta con los módulos de
+                    Inventario, Facturación, Punto de Venta, Cuentas por Cobrar,
+                    Cuentas por Pagar, Cotizaciones, módulo Restaurante y módulo
+                    Laboratorio Clínico.
+                  </p>
+
+                  <div class="d-flex mt-4">
+                    <div class="d-flex align-items-center mr-4">
+                      <small class="mt-1" style="color: #17a2b8"
+                        ><b>Vue 3 | C# | MySQL</b></small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container-fluid" style="height: 10px"></div>
+     
+      <footer class="bg-dark pt-5 mt-5">
+        <div class="container">
+          <!-- About and Newsletter START -->
+          <div id="redes" class="row pt-2 pb-3" style="flex-wrap: wrap-reverse">
+            <div
+              class="col-md-8 d-flex flex-row justify-content-around align-items-center"
+            >
+              <a
+                href="https://www.facebook.com/julio.e.sabillon"
+                target="_blank"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  fill="currentColor"
+                  class="bi bi-facebook"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                  /></svg
+              ></a>
+              <a
+              href="https://api.whatsapp.com/send?phone=50496183355&text=Hola,%20%20vi%20tu%20sitio%20web%20y%20quiero%20más%20información."
+                target="_blank"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  fill="currentColor"
+                  class="bi bi-whatsapp"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+                  /></svg
+              ></a>
+            </div>
+            <div class="col-md-4" style="text-align: center">
+              <h1 class="font-weight-bold text-capitalize" style="color: white">
+                Redes<span style="color: #17a2b8">Sociales</span>
+              </h1>
+            </div>
+          </div>
+          <!-- About and Newsletter END -->
+          <!-- Divider -->
+          <hr />
+
+
+        <!-- Footer copyright START -->
+        <div class="bg-dark-overlay-3 mt-2">
+          <div class="container">
+            <div class="row align-items-center justify-content-md-between py-4">
+              <div
+                class="container-fluid d-flex flex-row justify-content-center"
+              >
+                <!-- Copyright -->
+                <div
+                  class="text-center text-md-start text-primary-hover text-muted"
+                >
+                  Julio Sabillón
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer copyright END -->
+      </footer>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      document.getElementById("toastbtn").onclick = function () {
+        var toastElList = [].slice.call(document.querySelectorAll(".toast"));
+        var toastList = toastElList.map(function (toastEl) {
+          // Creates an array of toasts (it only initializes them)
+          return new bootstrap.Toast(toastEl); // No need for options; use the default options
+        });
+        toastList.forEach((toast) => toast.show()); // This show them
+
+        console.log(toastList); // Testing to see if it works
+      };
+
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos < 90) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-300px";
+        }
+        prevScrollpos = currentScrollPos;
+      };
+    </script>
+  </body>
+</html>
